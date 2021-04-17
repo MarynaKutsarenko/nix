@@ -5,14 +5,104 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Courses</title>
 </head>
 
 <body>
 	<header class="header">
-		<h1 class="title">!bad_coders</h1>
+		<div class="container ">
+			<div class="header_wrap clearfix">
+				<div class="logo">
+					<a href="#">
+						<img src="/images/logo.png" alt="!bad_coders">
+					</a>
+				</div>
+				<div class="nav">
+					<ul class="nav_item">
+						<li><a href="#project" class="active">Проекты</a></li>
+						<li><a href="" class="nav_item-link"></a></li>
+						<li><a href="#about" class="nav_item-link">Мы по тому что</a></li>
+						<li><a href="" class="nav_item-link">Обратная связь</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</header>
+
+	<section class="progresbar">
+		<div class="progres_value"></div>
+		<div class="enter_content">
+			<section class="projects" id="project">
+				<div class="container">
+					<h2 class="title">Проекты</h2>
+					<div id="slider">
+						<div id="slide_holder">
+							<div class="slide_holder-img"><img src="./images/img_1.jpeg" alt="project"></div>
+							<div class="slide_holder-img"><img src="./images/imag_2.jpeg" alt="project"></div>
+							<div class="slide_holder-img"><img src="./images/img_3.jpeg" alt="project"></div>
+							<div class="slide_holder-img"><img src="./images/img_4.jpeg" alt="project"></div>
+							<div class="slide_holder-img"><img src="./images/img_5.jpeg" alt="project"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="aboutAs" id="about">
+				<div class="container">
+
+					<h2 class="title">С нами удобно работать</h2>
+
+					<div class="custom-accordion">
+						<div class="item">
+							<div class="icon">1</div>
+							<div class="subtitle">По договору</div>
+							<div class="text_content">Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+								Работаю как ИП без НДС.</div>
+						</div>
+						<div class="item">
+							<div class="icon">2</div>
+							<div class="subtitle">Точно в срок</div>
+							<div class="text_content">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+								плачу неустойку. </div>
+						</div>
+						<div class="item">
+							<div class="icon">3</div>
+							<div class="subtitle">Ценник под вас</div>
+							<div class="text_content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+								складывается цена.</div>
+						</div>
+						<div class="item">
+							<div class="icon">4</div>
+							<div class="subtitle">Хостинг и домен</div>
+							<div class="text_content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на
+								год + SSL сертификат.</div>
+						</div>
+						<div class="item">
+							<div class="icon">5</div>
+							<div class="subtitle">!бросим после сдачи</div>
+							<div class="text_content">Научу вас или вашего сотрудника пользоваться сайтом, запишу
+								видео-инструкции.</div>
+						</div>
+						<div class="item">
+							<div class="icon">6</div>
+							<div class="subtitle"></div>
+							<div class="text_content"></div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer_copyright">Марина Куцаренко &copy; 2021 <br></div>
+		</div>
+	</footer>
+
 
 	<script src="./script/main.js"></script>
 </body>
