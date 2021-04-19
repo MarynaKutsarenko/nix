@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+body {
+   background-image: linear-gradient(to right top, #76ff03 50%, #eee 50%);
+   background-size: 100% calc(100% - 100vh );
+   background-repeat: no-repeat;
+}
 
+body::before {
+   content: " ";
+   position: fixed;
+   top: 15px;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: #fff;
+   z-index: -1;
+}
 .wrapper {
    font-family: 'Sunflower', sans-serif;
    font-size: 1.1rem;
@@ -94,6 +109,7 @@ li {
    display: inline;
 }
 
+/* блок проекты */
 .projects {
    margin-top: 11rem;
 }
