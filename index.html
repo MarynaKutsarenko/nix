@@ -7,133 +7,125 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/style.css">
-	<title>Courses</title>
+	<title>Position</title>
 </head>
 
 <body>
-	
-	<header class="header">
-		<div class="container ">
-			<div class="header_wrap clearfix">
+	<div class="wrapper">
+
+		<section class="position">
+			<div class="container">
+				<h2 class="title">Floats at work</h2>
+				<div class="position_content">
+					<div class="position_img-left">
+						<img src="/images/monkey1.jpeg" alt="monkey">
+					</div>
+
+					<div class="position_text">
+						Менеджер идет по коридору и встречает своего подчиненного. Сотрудник по фамилии Джонс, едва успев
+						поздороваться с начальником, заводит такой разговор: «Кстати, у нас там возникла проблема. Дело в том,
+						что...» Слушая Джонса, менеджер понимает, что: а) он в принципе может помочь подчиненному; б) он не
+						может решить проблему мгновенно. В результате менеджер отвечает: «Хорошо, что вы мне об этом сказали.
+						Сейчас мне некогда, но я подумаю и сообщу вам, что тут можно сделать». И они расходятся каждый по
+						своим делам.
+						<div class="position_img-right">
+							<img src="/images/monkey2.jpeg" alt="monkey">
+						</div>
+						У кого на спине сидела обезьяна до разговора? У подчиненного. А после разговора? Правильно, у
+						менеджера. В тот момент, когда обезьяна перепрыгивает на спину начальника, он начинает расходовать
+						свой временной ресурс на решение проблем подчиненных. И длится это до тех пор, пока обезьяна не
+						вернется к своему законному владельцу, обязанному заботиться о ней. Подставив обезьяне свою спину,
+						менеджер добровольно занимает положение подчиненного своих подчиненных. Наш герой сделал то, что
+						начальники требуют от своих сотрудников: он принял на себя ответственность за решение проблемы и
+						пообещал отчитаться о выполнении задания. Джонс наверняка позаботится о том, чтобы босс не забыл о
+						своих обязанностях, – он заглянет к менеджеру в кабинет и весело спросит: «Ну, как там наши дела?» Вот
+						вам и контроль за выполнением порученной работы!
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="position_relative">
+			<div class="container">
+
+				<h2 class="title">Position Relative</h2>
+				<div class="square">
+					<div class="square_green">
+						<span class="square_green-child square_top"></span>
+						<span class="square_green-child square_buttom"></span>
+					</div>
+				</div>
+
+				<div class="circle">
+					<div class="circle_green">
+						<span class="circle_green-child circle_top1"></span>
+						<span class="circle_green-child circle_top2"></span>
+						<span class="circle_green-child circle_middle"></span>
+						<span class="circle_green-child circle_buttom"></span>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="images">
+			<div class="container">
+				<h2 class="title">LI => display : inline-block</h2>
+				<ul class="images_items">
+					<li class="images_item"><img src="/images/mojo1.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo2.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo3.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo4.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo5.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo6.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo7.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo8.jpeg" alt="smiley"></li>
+					<li class="images_item"><img src="/images/mojo9.png" alt="smiley"></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="answer">
+			<div class="container">
+				<h2 class="title">Если правильно поняла задание то absolute нужно заменить на relative</h2>
+			</div>
+		</section>
+
+		<section class="WebSite">
+			<header class="header">
 				<div class="logo">
-					<a href="#">
-						<img src="/images/logo.png" alt="!bad_coders">
-					</a>
+					<a href="#"><img src="/images/logo_m.jpeg" alt="logo"></a>
 				</div>
-				<div class="nav">
-					<ul class="nav_item">
-						<li><a href="#project" class="active">Проекты</a></li>
-						<li><a href="#about" class="nav_item-link">Мы по тому что</a></li>
-						<li><a href="#conection" class="nav_item-link">Обратная связь</a></li>
-					</ul>
+				<h1 class="header_title">Welcome to Crazy Travelers</h1>
+			</header>
+
+			<nav class="nav">
+				<ul class="nav_items">
+					<li class="nav_item">Historical places</li>
+					<li class="nav_item">Beaches</li>
+					<li class="nav_item">Adventures tour</li>
+					<li class="nav_item">Study tour</li>
+				</ul>
+			</nav>
+
+			<sidebar class="sidebar">
+				<h3 class="sidebar_title">Goa Calling</h3>
+				<div class="sidebar_imag"><img src="/images/main_1.jpeg" alt="picture"></div>
+				<h5 class="sidebar_title">Explore Beach, Enjoy Sea-food</h5>
+				<h3 class="sidebar_title">Adventurous Trekking</h3>
+				<div class="sidebar_imag"><img src="/images/main_2.jpeg" alt="picture"></div>
+				<h6 class="sideba_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
+			</sidebar>
+
+			<main class="main">
+				<div class="main_image">
+					<img src="/images/main.jpeg" alt="picture">
 				</div>
-			</div>
-			<div class="progress"></div>
-		</div>
-		
-	</header>
-
-	<section class="projects">
-		<div class="container">
-			<h2 class="title">Проекты</h2>
-			<div id="slider">
-				<div id="slide_holder">
-					<div class="slide_holder-img"><img src="./images/img_1.jpeg" alt="project"></div>
-					<div class="slide_holder-img"><img src="./images/imag_2.jpeg" alt="project"></div>
-					<div class="slide_holder-img"><img src="./images/img_3.jpeg" alt="project"></div>
-					<div class="slide_holder-img"><img src="./images/img_4.jpeg" alt="project"></div>
-					<div class="slide_holder-img"><img src="./images/img_5.jpeg" alt="project"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="aboutAs" id="about">
-		<div class="container">
-
-			<h2 class="title">С нами удобно работать</h2>
-
-			<div class="custom-accordion">
-				<div class="item">
-					<div class="icon">1</div>
-					<div class="subtitle">По договору</div>
-					<div class="text_content">Предоставлю все документы для бухгалтерии: договоры, счета и акты.
-						Работаю как ИП без НДС.</div>
-				</div>
-				<div class="item">
-					<div class="icon">2</div>
-					<div class="subtitle">Точно в срок</div>
-					<div class="text_content">В договоре прописана моя ответственность за срок проекта. Если просрочу —
-						плачу неустойку. </div>
-				</div>
-				<div class="item">
-					<div class="icon">3</div>
-					<div class="subtitle">Ценник под вас</div>
-					<div class="text_content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
-						складывается цена.</div>
-				</div>
-				<div class="item">
-					<div class="icon">4</div>
-					<div class="subtitle">Хостинг и домен</div>
-					<div class="text_content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на
-						год + SSL сертификат.</div>
-				</div>
-				<div class="item">
-					<div class="icon">5</div>
-					<div class="subtitle">!бросим после</div>
-					<div class="text_content">Научу вас или вашего сотрудника пользоваться сайтом, запишу
-						видео-инструкции.</div>
-				</div>
-				<div class="item">
-					<div class="icon">6</div>
-					<div class="subtitle">!BAD_CODERS</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="callBack" id="conection">
-		<div class="container">
-			<h2 class="title">Свяжитесь со мной</h2>
-
-			<div class="wrap_form">
-				<form action="#" class="contact-form" name="contactForm">
-
-					<p class="contact"><label for="name">Полное имя<span class="arrow">*</span></label></p>
-					<input type="text" name="name"  id="name" class="form_input" tabindex="1" placeholder="Ваше имя" title="Например 'Марина'" required=''>
-
-					<p class="contact"><label for="email">Email<span class="arrow">*</span></label></p>
-					<input type="email" name="email" id="email" class="form_input" placeholder="example@sitehere.com" tabindex="2" required=''>
-
-					<p class="texA"><label for="message">Cообщение</label></p>
-					<textarea class="form_input texArea" maxlength="200" type='text' name="message" id="message" cols="25" rows="5"
-						placeholder="напишите пару слов..."></textarea>
-
-					<p class="contact"><label for="radio">Вы бы порекомендовали !BAD_CODERS</label></p>
-					<div class="radio">
-						<input type="radio" id="choices" name="choices" value="yes">
-						<label for="choices">КОНЕЧНО!</label></br>
-						
-						<input type="radio" id="choices2" name="choices" value="yes" checked>
-						<label for="choices2">C ОГРОМНЫМ УДОВОЛЬСТВИЕМ!</label>
-					</div>
-
-					<div>
-						<button type="submit" name="submit" class="btn btn-submit" tabindex="3"><a>Отправить</a></button>
-						<button type="reset" name="reset" class="btn btn-reset" tabindex="4"><a>Сброс</a></button>
-					</div>
-				</form>
-			</div>
-
-		</div>
-	</section>
-
-	<footer class="footer">
-		<div class="container">
-			<div class="footer_copyright">Марина Куцаренко &copy; 2021 <br></div>
-		</div>
-	</footer>
+				<p class="main_text">Lorem ipsum dolor sit amet, consectetur adip</p>
+			</main>
+		</section>
+	</div>
 
 
 	<script src="./script/main.js"></script>
