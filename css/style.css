@@ -229,3 +229,78 @@
       grid-auto-flow: row;
    }
 }
+
+/* last one */
+.five {
+   margin-bottom: 40px;
+}
+
+.grid_five {
+   display: grid;
+
+   grid-template-columns: repeat(4, 150px );
+   justify-content: center;
+   gap: 10px;
+
+   grid-template-areas: 
+   "A A . B"
+   "C D D D"
+   "C D D D";
+}
+
+.grid_five-item {
+   background-color: rgb(48, 37, 37);
+   color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.A {
+   grid-area: A;
+}
+
+.B {
+    grid-area: B;
+}
+
+.C {
+    grid-area: C;
+}
+.D {
+    grid-area: D;
+}
+.big {
+   display: grid;
+
+   grid-template-columns: repeat(3, 1fr );
+   grid-template-rows: repeat(6, 1fr );
+}
+
+.big_item {
+   background-color: #eee;
+   color: #000;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.E {
+   grid-column: 1 / 2;
+   grid-row: 1 / 6;
+}
+
+.F {
+   grid-column: 2 / 4;
+   grid-row: 1 / 3;
+}
+
+.G {
+   grid-column: 3 / 4;
+   grid-row: 3 / 6;
+}
